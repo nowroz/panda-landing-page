@@ -32,3 +32,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* container styles */
+.container {
+    max-width: 1212px;
+    margin: 0 auto; 
+}
+
+/* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 49px auto 63px;
+}
+
+.logo {
+    width: 159px;
+    height: 40.81px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(112, 112, 112);
+}
+
+.search-bar {
+    position: relative;
+}
+
+#search {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-block;
+    background: rgb(241, 241, 241);
+    padding: 12px 28px;
+    width: 508.94px;
+    border: none;
+    border-radius: 66px;
+}
+
+#search::placeholder {
+    font-style: italic;
+    color: rgb(204, 204, 204);
+}
+
+#search::-webkit-search-cancel-button {
+    margin-right: 30px; 
+}
+
+.magnifying-glass {
+    color: rgb(186, 186, 186);
+    position: absolute;
+    top: 16px;
+    right: 28px;
+}
